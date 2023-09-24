@@ -7,63 +7,94 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "2254C479-2DC2-4E0E-AC90-96631F0C38B2"
+            uuid = "87124477-E22E-4EC1-8972-DC864A0F978A"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "WeatherForBCS/MainViewModel.swift"
+            filePath = "WeatherForBCS/Weather/MainViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
-            landmarkName = "bind()"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "init()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "BD5B7938-8D01-4C7E-BACA-B18B90286760"
-            shouldBeEnabled = "Yes"
+            uuid = "4EF44297-BBA0-4581-AAB4-A345BBC230D5"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "WeatherForBCS/Api/WeatherService.swift"
+            filePath = "WeatherForBCS/Weather/MainViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "31"
-            endingLineNumber = "31"
-            landmarkName = "getCity(city:success:failure:)"
+            startingLineNumber = "131"
+            endingLineNumber = "131"
+            landmarkName = "addNewCity(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "40557333-DEB9-4EC1-826F-6B2C5B9C09C5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WeatherForBCS/Data/Api/WeatherService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "getCity(by:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "BD5B7938-8D01-4C7E-BACA-B18B90286760 - 3dd646c5f1a4535d"
+                  uuid = "40557333-DEB9-4EC1-826F-6B2C5B9C09C5 - 1e5b9174901bbe0f"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Any, Alamofire.AFError&gt;) -&gt; () in WeatherForBCS.WeatherProvider.getCity(city: Swift.String) -&gt; ReactiveKit.Signal&lt;WeatherForBCS.CityInfo, __C.NSError&gt;"
+                  symbolName = "closure #1 (ReactiveKit.AtomicObserver&lt;Swift.Optional&lt;WeatherForBCS.CityInfo&gt;, __C.NSError&gt;) -&gt; ReactiveKit.Disposable in WeatherForBCS.WeatherProvider.getCity(by: Swift.String) -&gt; ReactiveKit.Signal&lt;Swift.Optional&lt;WeatherForBCS.CityInfo&gt;, __C.NSError&gt;"
                   moduleName = "WeatherForBCS"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/bcsbank/Documents/WeatherProject/WeatherForBCS/WeatherForBCS/Api/WeatherService.swift"
+                  urlString = "file:///Users/bcsbank/Documents/WeatherProject/WeatherForBCS/WeatherForBCS/Data/Api/WeatherService.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "31"
-                  endingLineNumber = "31"
-                  offsetFromSymbolStart = "2714">
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "87">
                </Location>
                <Location
-                  uuid = "BD5B7938-8D01-4C7E-BACA-B18B90286760 - fea866adf59456e7"
+                  uuid = "40557333-DEB9-4EC1-826F-6B2C5B9C09C5 - 8a92df6b60ad0143"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Any, Alamofire.AFError&gt;) -&gt; () in WeatherForBCS.WeatherProvider.getCity(city: Swift.String, success: (WeatherForBCS.CityInfo) -&gt; (), failure: () -&gt; ()) -&gt; ()"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;WeatherForBCS.CheckCityResponse, Alamofire.AFError&gt;) -&gt; () in closure #1 (ReactiveKit.AtomicObserver&lt;Swift.Optional&lt;WeatherForBCS.CityInfo&gt;, __C.NSError&gt;) -&gt; ReactiveKit.Disposable in WeatherForBCS.WeatherProvider.getCity(by: Swift.String) -&gt; ReactiveKit.Signal&lt;Swift.Optional&lt;WeatherForBCS.CityInfo&gt;, __C.NSError&gt;"
                   moduleName = "WeatherForBCS"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/bcsbank/Documents/WeatherProject/WeatherForBCS/WeatherForBCS/Api/WeatherService.swift"
+                  urlString = "file:///Users/bcsbank/Documents/WeatherProject/WeatherForBCS/WeatherForBCS/Data/Api/WeatherService.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "31"
-                  endingLineNumber = "31"
-                  offsetFromSymbolStart = "2889">
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "241">
+               </Location>
+               <Location
+                  uuid = "40557333-DEB9-4EC1-826F-6B2C5B9C09C5 - 8a92df6b60ad0143"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;WeatherForBCS.CheckCityResponse, Alamofire.AFError&gt;) -&gt; () in closure #1 (ReactiveKit.AtomicObserver&lt;Swift.Optional&lt;WeatherForBCS.CityInfo&gt;, __C.NSError&gt;) -&gt; ReactiveKit.Disposable in WeatherForBCS.WeatherProvider.getCity(by: Swift.String) -&gt; ReactiveKit.Signal&lt;Swift.Optional&lt;WeatherForBCS.CityInfo&gt;, __C.NSError&gt;"
+                  moduleName = "WeatherForBCS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bcsbank/Documents/WeatherProject/WeatherForBCS/WeatherForBCS/Data/Api/WeatherService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "238">
                </Location>
             </Locations>
          </BreakpointContent>
