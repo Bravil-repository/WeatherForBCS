@@ -17,7 +17,7 @@ protocol WeatherService {
 class WeatherProvider: WeatherService {
     func getCity(by name: String) -> Signal<CityInfo?, NSError> {
         let url = "https://geocoding-api.open-meteo.com/v1/search"
-        let parameters: [String: Any] = ["name": name]
+        let parameters: [String: Any] = ["name": name, "language": "ru"]
         
         return Signal<CityInfo?, NSError> { observer in
             AF.request(url, parameters: parameters).responseDecodable(of: CheckCityResponse.self) { response in
