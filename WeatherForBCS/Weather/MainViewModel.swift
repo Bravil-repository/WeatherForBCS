@@ -71,7 +71,7 @@ class MainViewModel: BindingExecutionContextProvider, DisposeBagProvider  {
                 vm.timer?.invalidate()
                 vm.timer = nil
             } else if vm.timer == nil{
-                vm.timer = Timer.scheduledTimer(withTimeInterval: 180, repeats: true) { [weak self] _ in
+                vm.timer = Timer.scheduledTimer(withTimeInterval: 60, repeats: true) { [weak self] _ in
                     self?.refreshWeathers()
                 }
             }
